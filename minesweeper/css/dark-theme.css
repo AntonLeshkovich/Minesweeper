@@ -1,0 +1,33 @@
+body.dark-theme {
+    background-color: #2F2E33;
+}
+
+body.dark-theme .game-title {
+    color: #D5D6D2;
+}
+
+body.dark-theme .field td.unlock {
+    background-color: rgb(255, 255, 255);   
+}
+
+body.dark-theme .field td:not(.unlock):hover {
+    background-color: rgba(58, 81, 153, 0.8);
+    border: 1px solid rgb(255, 255, 255);
+    transition: border .3s;
+}
+
+body.dark-theme .results-title {
+    color: rgb(255, 255, 255);
+}
+
+body.dark-theme .results-table th {
+    color: rgb(255, 255, 255);
+}
+
+body.dark-theme .results-table td {
+    color: rgb(255, 255, 255);
+}
+
+body.dark-theme .sound-btn path {
+    fill: #2F2E33;
+}
